@@ -10,8 +10,10 @@
 # print("Name entered:", name)
 # print("Mark entered:", mark)
 
-x = input("Enter X val:") 
-y = input("Enter Y val:")
+x1 = input("Enter X val:")
+y1 = input("Enter Y val:")
+x = float(x1)
+y = float(y1)
 z = x + y
 print(z)
 
