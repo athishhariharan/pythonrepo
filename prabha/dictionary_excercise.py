@@ -7,7 +7,7 @@ student_information = {
     "father_name": "Hariharan",
     "city": "Brisbane"
     }
-
+print(student_information)
 for key,value in student_information.items():
     print(value)
 
