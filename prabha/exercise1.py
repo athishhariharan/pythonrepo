@@ -18,28 +18,30 @@
 # get the input
 
 num1 = float(input("Enter a first number: "))
+operation = input("Enter the operator(+,-,*,/): ")
 num2 = float(input("Enter a second number: "))
-operation = input("Enter the operation(add,sub,mul,div): ")
+
 
 # Calculator operation
-if operation == "add":
+if operation == "+":
     # add two numbers
     result = num1 + num2
     print("The sum is: ", result)
-elif operation == "sub":
+elif operation == "-":
     # subtract two numbers
     result = num1 - num2
     print("The subtract is: ", result)
-elif operation == "mul":
+elif operation == "*":
     # multiply two numbers
     result = num1*num2
     print("The multiply is: ", result)
-elif operation == "div":
+elif operation == "/":
     # divide two numbers
     result = num1/num2
     print("The divide is: ", result)
 else:
     print("Enter the correct operation")
+    exit()
 
 
 
