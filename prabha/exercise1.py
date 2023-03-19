@@ -40,7 +40,7 @@ elif operation == "/":
     result = num1/num2
     print("The divide is: ", result)
 else:
-    print("Enter the correct operation")
+    print("Enter the correct operator")
     exit()
 
 
