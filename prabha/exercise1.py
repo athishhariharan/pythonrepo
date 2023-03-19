@@ -4,14 +4,14 @@
 
 
 # get the two float inputs from user
-# get the string input from user for operation
+# get the operator input from user for operation
 # operation: add, sub, multiplication, division
 # Validate the input using if condition then proceed respective operation
-# if user input is add i have to execute add operation
-# if user input is sub I have to exeucte sub operation
-# if muser input is mul I have to execute mul operation
-# if user input is div I have to execute div operation
-# Enter the correct operation
+# if user input is + i have to execute add operation
+# if user input is - I have to exeucte sub operation
+# if muser input is * I have to execute mul operation
+# if user input is / I have to execute div operation
+# Enter the correct operator and exit
 
 
 
