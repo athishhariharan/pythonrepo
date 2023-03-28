@@ -1,4 +1,4 @@
-#add two numbers use variable
+e#add two numbers use variable
 num1 = 10
 num2= 5
 sum = num1 + num2
@@ -18,7 +18,7 @@ print("The sum of", num1, "and", num2, "is", sum)
 # last_name = "subbaian"
 # full_name = first_name + " " + last_name
 # print("Hi, my name is", full_name )
-
+e
 
 #getting user input for variables
 name =input("what is your name")
