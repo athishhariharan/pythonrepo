@@ -3,26 +3,31 @@
 # file.close()
 # print(content)
 
-# file = open("C:/athishwork/code/pythonrepo/prabha/example4.txt","r")
-# content = file.read()
+# file = open("C:/athishwork/code/pythonrepo/prabha/functions.py", "w")
+# content = "This is the content that will be written to the file."
+# file.write(content)
 # file.close()
-# print(content)
-
-# file_writing = open("C:/athishwork/code/pythonrepo/prabha/example5.txt","w")
-# content1 = file_writing.write("This is new content written by Tanish")
-# file_writing.close()
-# print(content1)
-
-# file_reading = open("C:/athishwork/code/pythonrepo/prabha/example5.txt","r")
-# content2 = file_reading.read()
-# file_reading.close()
-# print(content2)
-
-file_append = open("C:/athishwork/code/pythonrepo/prabha/example5.txt","a")
-content3 = file_append.write("\n file is write second time by Athish")
-file_append.close()
 
 
+# with open("C:/athishwork/code/pythonrepo/prabha/functions.py", "a") as file:
+#     file.write(" my name is prabha\n")
 
 
+# Open file in 'write' mode and write a line to it
+with open("C:/athishwork/code/pythonrepo/prabha/example6.txt", "w") as file:
+    file.write('Hello, world!\n')
 
+
+    file = open("C:/athishwork/code/pythonrepo/prabha/example6.txt", "w")
+file.write('Hello, world!\n')
+file.close()
+
+
+# Open file in 'append' mode and append another line to it
+with open("C:/athishwork/code/pythonrepo/prabha/example6.txt", "a") as file:
+    file.write('This is a new line!\n')
+
+# Open file in 'append' mode and append another line to it
+file = open("C:/athishwork/code/pythonrepo/prabha/example6.txt", "a")
+file.write('This is a new line!\n')
+file.close()
