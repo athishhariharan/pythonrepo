@@ -7,6 +7,10 @@
         {
             "name": "Item 3",
             "price": 7.99
+        },
+        {
+            "name": "Item 4",
+            "price": 12.99
         }
     ]
 }
