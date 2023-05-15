@@ -1,3 +1,7 @@
 Banana
 Cherry
 Durian
+Banana
+Cherry
+Durian
+Orange
