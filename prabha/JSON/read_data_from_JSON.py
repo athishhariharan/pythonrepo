@@ -1,10 +1,10 @@
-# import json
+import json
 
-# with open("prabha\JSON\practice.json") as json_file:
-#     data = json.load(json_file)
-#     for item in data["items"]:
-#         print("Item:", item["name"])
-#         print("Price:", item["price"])
+with open("prabha\JSON\practice.json") as json_file:
+    data = json.load(json_file)
+    for item in data["items"]:
+        print("Item:", item["name"])
+        print("Price:", item["price"])
 
 
 # import json
