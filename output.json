@@ -5,8 +5,16 @@
             "price": 10.99
         },
         {
+            "name": "Item 2",
+            "price": 5.99
+        },
+        {
             "name": "Item 3",
             "price": 7.99
+        },
+        {
+            "name": "Item 4",
+            "price": 12.99
         },
         {
             "name": "Item 4",
