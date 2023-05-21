@@ -40,3 +40,12 @@ for student in data["students"]:
     # Check if the student's name starts with a specific letter
     if name.startswith("T"):
         print(f"{name} has a name starting with 'T'.")
+    
+    # Modifying JSON data
+data["students"][0]["grade"] = "B"  # Changing Prabha's grade to "B"
+
+# JSON serialization with dumps
+updated_json_string = json.dumps(data, indent=4)
+
+print("\nUpdated JSON string:")
+print(updated_json_string)
