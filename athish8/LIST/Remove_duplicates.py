@@ -10,13 +10,13 @@
 #         unique_list.append(num)
 #     print(unique_list)
 
-# # Without def - string
-# my_list = ["apple", "banana", "orange", "apple"]
-# unique_list = []
-# for num in my_list:
-#     if num not in unique_list:
-#         unique_list.append(num)
-#     print(unique_list)
+# Without def - string
+my_list = ["apple", "banana", "orange", "apple"]
+unique_list = []
+for num in my_list:
+    if num not in unique_list:
+        unique_list.append(num)
+    print(unique_list)
 
 # With Def
 # Initialize an empty list to store unique elements
