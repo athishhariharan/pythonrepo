@@ -26,11 +26,8 @@ for num in my_list:
 # Return the list with duplicates removed
 # Example usage
 def remove_duplicate(lst):
-    unique_list = []
-    for item in lst:
-        if item not in unique_list:
-            unique_list.append(item)
-            return unique_list
-        my_list = [1,2,3,4,5]
-        result = remove_duplicates(my_list)
-        print(result)
+   return list(set(lst))
+my_list = [1, 2, 3, 2, 4, 1, 5, 3, 5]
+unique_list = remove_duplicates(my_list)
+
+print(unique_list)
